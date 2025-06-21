@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    background-color: rgba(33, 175, 200, 0.961);
+    height: 50px;
+   
+}
+.nav-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+
+    
+}
+.bolder{
+ font-size: 1.5 rem; 
+ font-weight: bold;  
+ color: rgb(250, 240, 250);
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ cursor: pointer;
+}
+
+.cart{
+    cursor: pointer;
+}
+
+.cart span:nth-child(1){
+    font-size: 2rem;
+    color: aliceblue;
+   
+
+}
+.cart span:nth-child(2){
+   padding: 0 3px;
+   background-color: blueviolet;
+   font-weight: bolder;
+   color: aliceblue;
+   position: relative;
+   top: -15px;
+   border-radius: 50%;
+}
+
